@@ -31,8 +31,7 @@ module.exports = tseslint.config(
           prefix: "app",
           style: "kebab-case",
         },
-      ],
-      "prettier/prettier": "error",
+      ]
     },
   },
   {
