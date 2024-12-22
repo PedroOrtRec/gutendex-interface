@@ -1,0 +1,31 @@
+# Ignore dependencies
+node_modules/
+dist/
+build/
+coverage/
+
+# Ignore system-related folders
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Ignore specific configuration or output files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Ignore production files
+*.min.*
+*.log
+*.svg
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.ico
+
+# Ignore specific environment and configuration files
+.env
+.env.local
+.env.*.local
